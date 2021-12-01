@@ -18,9 +18,15 @@
     },
     "require": {
         "php": ">=5.6",
-        "malkusch/lock": "^1",
+        "malkusch/lock": "dev-master",
         "ext-bcmath":"*"
     },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/peldax/lock"
+        }
+    ],
     "require-dev": {
         "ext-redis": "^2.2.4|^3",
         "predis/predis": "^1",
